@@ -1,0 +1,19 @@
+{
+    "name": "api-social",
+    "version": "1.0.0",
+    "description": "down all social network",
+    "main": "server.js",
+    " scripts": {
+        "start": "node api/download.js"
+    },
+    "author": "LocDev & Marrcus",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.7.9",
+        "cheerio": "^1.0.0",
+        "crypto-js": "^4.2.0",
+        "export": "^0.1.337",
+        "express": "^4.21.2",
+        "path": "^0.12.7"
+    }
+}
